@@ -2,12 +2,9 @@ import { useLottie } from 'lottie-react'
 
 const style = {
   opacity: 3,
-  width: '9rem',
-  height: '9rem',
+  width: '8rem',
+  height: '8rem',
   position: 'absolute',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
   marginLeft:'5rem'
 }
 

@@ -115,3 +115,27 @@ h1 {
 .score {
   padding: 50px;
 }
+
+@media (max-width: 480px) {
+ h1{
+  font-size: 3rem;
+ }
+ .box-result{
+  padding: 5px;
+ }
+ .box-result-score{
+  width: auto;
+ }
+ .result{
+  gap: 1rem;
+ }
+ .picks{
+  margin-top: 5rem;
+ }
+ .choice{
+  margin-top: -2rem;
+ }
+ .img-weapon{
+  max-width: 60px;
+ }
+}
