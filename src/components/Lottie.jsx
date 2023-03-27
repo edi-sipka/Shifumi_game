@@ -2,11 +2,13 @@ import { useLottie } from 'lottie-react'
 
 const style = {
   opacity: 3,
-  width: '5rem',
-  height: '5rem',
+  width: '9rem',
+  height: '9rem',
   position: 'absolute',
   display: 'flex',
-  alignItems: 'center'
+  alignItems: 'center',
+  justifyContent: 'center',
+  marginLeft:'5rem'
 }
 
 const LottieAnimation = () => {
