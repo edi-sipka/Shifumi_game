@@ -38,7 +38,7 @@ const App = () => {
     setShowPopup(false);
   };
 
-  // If user gets 3 points he is the winner and popup will show, same is for computer. Adding +1 point and animation on every turn. 
+  // If user gets 3 points he is the winner and popup will show, same is for computer.
   useEffect(() => {
     const gamePossibilities = player + computer;
     if (playerScore <= 3 && computerScore <= 3) {
@@ -73,7 +73,8 @@ const App = () => {
       } else if (['scissorsscissors', 'rockrock', 'paperpaper'].includes(gamePossibilities)) {
         setPoints('DRAW 😕');
       }
-    }  }, [computer, player]);
+    }
+  }, [computer, player]);
 
   return (
     <div className="main">
