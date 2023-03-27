@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+<p align="center">
+  <h1 align="center"> Shifumi Game / Rock Paper Scissors <img src="https://cdn-icons-png.flaticon.com/32/6727/6727583.png" alt="logo">
+ </h1>
+  
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Do you know the rules of Shifumi Game?
 
-In the project directory, you can run:
+Shifumi game is basically rock/paper/scissors game. The rules are simple:
 
-### `npm start`
+· Rock beats scissors <br/>
+· Scissors beat paper <br/>
+· Paper beat rock<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This game is responsive for desktop, tablet and mobile version.Be concentrated because you are competing against a computer. Scores are displayed at the top; the winner is the one who scores 3 points first. 
+<br/>Have fun!
+ 
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Live Version <a name="live-demo"></a>
 
-### `npm test`
+- [Play Game](https://shifumi-game.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## 🎥 Video <a name="video"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Watch video](https://www.loom.com/share/cbb67cac7e2f486a90eca5ee29d475e0)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This section provides a quick start guide.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ The application was made in [ReactJS](https://reactjs.org//), where [Tailwind](https://tailwindcss.com/) was used as a CSS framework, and packages such as [Lottie](https://www.npmjs.com/package/lottie-react), [Confetti](https://www.npmjs.com/package/react-confetti).
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [React](https://reactjs.org//): recommend using
+- [Tailwind](https://tailwindcss.com/): recommend using
+- [Lottie React](https://www.npmjs.com/package/lottie-react): recommend using
+- [React Confetti](https://www.npmjs.com/package/react-confetti): recommend using
+  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation Documentation
 
-## Learn More
+To get a local copy up and running follow these simple steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Copy this link `https://github.com/edi-sipka/Shifumi_game`.
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Write `git clone `https://github.com/edi-sipka/Shifumi_game`.
+- Go to the repository folder in your command prompt
+- Run `npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Key Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+-  A player wins by completing winning rule combination.
+-  Who first score 3 points is the winner.
 
-### Making a Progressive Web App
+-  After every point there is small point celebration animaition.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-  The game is responsive for desktop, tablet and mobile.
 
-### Advanced Configuration
+-  Round score info is in the header.
+-  End game celebration with confetti animation.
+-  Randomized computer combination every turn.
+-  Restart game option after finishing game.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+  <strong>Enjoy the game!</strong> ❤️
+</p>
