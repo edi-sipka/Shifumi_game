@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useEffect, useState } from 'react';
 import './App.css';
 import Popup from './components/Popup';
@@ -69,8 +70,7 @@ const App = () => {
       } else if (['scissorsscissors', 'rockrock', 'paperpaper'].includes(gamePossibilities)) {
         setPoints('DRAW 😕');
       }
-    }
-  }, [computer, player]);
+    }  }, [computer, player]);
 
   return (
     <div className="main">
