@@ -15,16 +15,19 @@ const App = () => {
   const picks = ['paper', 'scissors', 'rock'];
   const [showAnimation, setShowAnimation] = useState(false);
 
+  // Random function for computer combination
   const random = () => {
     const randomPick = picks[Math.floor(Math.random() * picks.length)];
     setComputer(randomPick);
   };
 
+  // Function called when user pick option
   const picksChoice = (e) => {
     setPlayer(e);
     random();
   };
 
+  // Restart game function
   const restart = () => {
     setPlayer('paper');
     setComputer('paper');
@@ -35,6 +38,7 @@ const App = () => {
     setShowPopup(false);
   };
 
+  // If user gets 3 points he is the winner and popup will show, same is for computer. Adding +1 point and animation on every turn. 
   useEffect(() => {
     const gamePossibilities = player + computer;
     if (playerScore <= 3 && computerScore <= 3) {

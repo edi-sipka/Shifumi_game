@@ -8,11 +8,13 @@
 ## Do you know the rules of Shifumi Game?
 
 Shifumi game is basically rock/paper/scissors game. The rules are simple:
-Rock beats scissors <br/>
-Scissors beat paper <br/>
-Paper beat rock<br/>
 
-This game is responsive for desktop, tablet and mobile version.Be concentrated because you are competing against a computer. Scores are displayed at the top; the winner is the one who scores 3 points first. Have fun!
+· Rock beats scissors <br/>
+· Scissors beat paper <br/>
+· Paper beat rock<br/>
+
+This game is responsive for desktop, tablet and mobile version.Be concentrated because you are competing against a computer. Scores are displayed at the top; the winner is the one who scores 3 points first. 
+<br/>Have fun!
  
 <br>
 
