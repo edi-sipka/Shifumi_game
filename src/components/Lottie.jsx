@@ -1,23 +1,24 @@
-import { useLottie } from 'lottie-react'
+import { useLottie } from 'lottie-react';
 
 const style = {
   opacity: 3,
-  width: '8rem',
-  height: '8rem',
+  width: '9rem',
+  height: '9rem',
   position: 'absolute',
-  marginLeft:'5rem'
-}
+  left: '50%',
+  transform: 'translateX(-50%)',
+};
 
 const LottieAnimation = () => {
   const options = {
     path: 'https://assets4.lottiefiles.com/packages/lf20_5gSEVkmCCC.json',
     loop: false,
     autoplay: true,
-  }
+  };
 
-  const { View } = useLottie(options, style)
+  const { View } = useLottie(options, style);
 
-  return View
-}
+  return View;
+};
 
-export default LottieAnimation
+export default LottieAnimation;
